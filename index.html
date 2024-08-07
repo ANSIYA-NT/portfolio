@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Platypi:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- animate css cdn link -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <!-- aos animation css cdn link -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="container">
+        <nav>
+            <img class="logo" src="./logo.png" alt="logo">
+            <ul>
+                <li class="ListItems"><a class="links" href="#home">HOME</a></li>
+                <li class="ListItems"><a class="links" href="#About">ABOUT</a></li>
+                <li class="ListItems"><a class="links" href="#skills">SKILLS</a></li>
+                <li class="ListItems"><a class="links" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="homecontent">
+                <h1 class="animate__animated animate__heartBeat" id="username">I'm Ansiya <span id="lname">NT</span></h1>
+                <p id="userdetails">This is my official portfolio website to describe all<br>
+                    Details and work experience in web development.</p>
+                <a id="download" href="./resume.png" download>DOWNLOAD CV</a>
+            </div>
+            <div class="homeimages">
+                <!-- shape -->
+                <img src="./shapee.png" alt="shape" id="shape" class="group1">
+                <!-- girl -->
+                <img src="./girlee.png" alt="girl" id="girl" class="group1">
+            </div>
+        </section>
+        <!-- About -->
+        <section id="About">
+            <div class="sectionhead">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div data-aos="flip-left" class="aboutimage">
+                    <img class="img1" src="./about.png " alt="About Me">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate officiis iure tempora optio
+                        repellat tempore laboriosam voluptatibus inventore? Ratione aperiam reiciendis quia quasi,
+                        dignissimos mollitia! A accusamus suscipit laboriosam aut.
+                        Similique nemo suscipit molestias cum in. Numquam, omnis fuga vero quo assumenda eius!
+                        Cupiditate atque obcaecati quaerat doloremque odit vel voluptates ducimus facilis quia? Sint
+                        aliquid molestiae hic! Quibusdam, id?</p>
+                    <div class="informations">
+                        <div class="info">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Ansiya NT</span>
+                        </div>
+                        <div class="info">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>8111857982</span>
+                        </div>
+                        <div class="info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>ntansiyaa@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skills -->
+        <section id="skills">
+            <div class="sectionhead">
+                <h2 class="mainHead">Skills</h2>
+                <span class="subHead">My Skills</span>
+            </div>
+            <div class="skillcontent">
+                <div class="progressbar">
+                    <!-- html -->
+                    <div class="bars">
+                        <h3 class="barhead">HTML</h3>
+                        <span class="barpercent">92%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar htmlbar"></div>
+                    </div>
+                    <!-- CSS -->
+                    <div class="bars">
+                        <h3 class="barhead">CSS</h3>
+                        <span class="barpercent">86%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar cssbar"></div>
+                    </div>
+                    <!-- JS -->
+                    <div class="bars">
+                        <h3 class="barhead">JS</h3>
+                        <span class="barpercent">82%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar jsbar"></div>
+                    </div>
+                    <!-- React -->
+                    <div class="bars">
+                        <h3 class="barhead">REACT</h3>
+                        <span class="barpercent">89%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar reactbar"></div>
+                    </div>
+
+
+                </div>
+                <div data-aos="zoom-in-up" class="skillimage">
+                    <img class="myskill" src="./skill.png" alt="skill">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="sectionhead">
+                <h2 class="mainHead">Contacts</h2>
+                <span class="subHead">My contact</span>
+            </div>
+            <div id="iconcollections">
+                <div class="icon">
+                    <a
+                        href="https://www.linkedin.com/in/ansiya-nt-189490320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                            class="fa-brands fa-linkedin brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a
+                        href="https://www.linkedin.com/in/ansiya-nt-189490320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                            class="fa-brands fa-github brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a
+                        href="https://www.linkedin.com/in/ansiya-nt-189490320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                            class="fa-brands fa-twitter brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a
+                        href="https://www.linkedin.com/in/ansiya-nt-189490320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                            class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a
+                        href="https://www.linkedin.com/in/ansiya-nt-189490320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                            class="fa-brands fa-facebook brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a
+                        href="https://www.linkedin.com/in/ansiya-nt-189490320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                            class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <!-- "brands"-an id for the icons -->
+            </div>
+
+
+        </section>
+        <!-- footer -->
+        <footer >
+            <p id="copyright">&copy; My portfolio website-July 2024,All Rights
+                Reserved to &reg; Ansiya NT
+            </p>
+            <div class="icon uparrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+<!-- aos animation js cdn link -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
